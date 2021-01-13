@@ -40,4 +40,4 @@ The purpose of this analysis it to employ different techniques to train and eval
 
 ## Summary: 
 
-We can see from the above image that the best model is one that was created to predict the unbalanced classification problem of credit risk is the Ensemble AdaBoost Classifier. We also see the Balanced Random Forest Classifier do well with a high recall and accuracy score. I would recommend the Ensemble AdaBoost Classifier due to its higher overall scores for a classification prediction being near 1 which is what we want in this prediction.
+We can see from the above image that the best model is one that was created to predict the unbalanced classification problem of credit risk, the Ensemble AdaBoost Classifier. We also see the Balanced Random Forest Classifier do well with a high recall and accuracy score. I would recommend the Ensemble AdaBoost Classifier due to its higher overall scores for a classification prediction being near 1 which is what we want in this prediction.
