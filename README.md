@@ -5,7 +5,7 @@
 The purpose of this analysis it to employ different techniques to train and evaluate models with unbalanced classes. Jill request that I use imbalanced and scikit learning libraries to bulild and evaluate models using resampling. Using the data set provided from LendingClub and other lending service companies we will be under and over sampled.  I will compare two new machine learning models that reduce bias to precict credit risk. From this I am expected to recomend if the models should be use to predict credit risk.  
 
 ## Results: 
-
+### Summary of the machine learning models
 ![Summary](https://github.com/Coachnmomof3/Credit_Risk_Analysis/blob/main/Summary%20of%20the%20machine%20learning%20models.png)
 
 * ### Oversampling Naive Random
@@ -38,7 +38,6 @@ The purpose of this analysis it to employ different techniques to train and eval
     * Precision= .99
     * Recall= .87
 
-## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
-We can see from the above image that the best results were obtained by the Easy Ensemble AdaBoost Classifier. It is important to consider that when lending money, misclassifying a high-risk could result in the lost of the funds,  . 
+## Summary: 
 
-The risk of lose steming from a misclassified high-risk should be looking for a model that has precision over a defined limit. The over all goal was to get the best out come that will minimize loss and maximize gain. If the company is willing to take .07 loss then the best model is the Easy Ensemble AdaBoost Classifier. Due to the models not having a .99 or higher outcome I would not suggest using any of the models shown above.
+We can see from the above image that the best model is one that was created to predict the unbalanced classification problem of credit risk is the Ensemble AdaBoost Classifier. We also see the Balanced Random Forest Classifier do well with a high recall and accuracy score. I would recommend the Ensemble AdaBoost Classifier due to its higher overall scores for a classification prediction being near 1 which is what we want in this prediction.
